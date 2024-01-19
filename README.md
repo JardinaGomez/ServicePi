@@ -14,7 +14,7 @@
     robot_localization
     slam_gmapping
 ## 2. Build Workspace 
-####     In **/catkin_ws** run the command:
+####     In _/catkin_ws_ run the command:
        **catkin_make**
 ## 3. Source Setuo File 
 ####     Run the following command: 
