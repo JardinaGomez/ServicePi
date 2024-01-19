@@ -7,12 +7,12 @@
 
 ## Instructions
 ## 1. Install Dependencies 
-###    rf2o_laser_odometry
-###    move_base
-###    Teb_local_planner
-###    costmap_2d
-###    robot_localization
-###    slam_gmapping
+    rf2o_laser_odometry
+    move_base
+    Teb_local_planner
+    costmap_2d
+    robot_localization
+    slam_gmapping
 ## 2. Build Workspace 
 ###     In ** /catkin_ws** run the command:
 ###        ** catkin_make **
