@@ -1,0 +1,11 @@
+
+
+<launch> 
+	<node pkg="move_base" type="move_base" respawn="false" name="move_base">
+			<rosparam file=$(find service_dog_robot)/config/navigation.yaml" command="load"/>
+			<rosparam file=$(find serice_dog_robot)/config/teb_local_planner_params.yaml" command=load"/>
+	</node>
+
+</launch>
+
+

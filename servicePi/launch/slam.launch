@@ -1,0 +1,3 @@
+<launch>  
+	<include file="$(find gmapping)/launch/slam_gmapping_pr2.launch"/>
+</launch 

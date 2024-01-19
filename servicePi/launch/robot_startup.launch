@@ -1,0 +1,14 @@
+<launch> 
+	<!-- Launch motor control nodes -->
+
+	<node pkg="robot_localization" type="ekf_node" name="ekf_localization">
+		<param name="config.file" value="$(find service_dog_robot)/config/localization_params.yaml" />
+	</node>
+
+ 
+	
+
+
+	 <node pkg="rplidar_ros" type="rplidarNode" name="rplidar"/>
+
+</launch >
