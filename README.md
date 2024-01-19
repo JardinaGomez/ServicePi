@@ -14,17 +14,17 @@
     robot_localization
     slam_gmapping
 ## 2. Build Workspace 
-####     In ** /catkin_ws** run the command:
-       ** catkin_make **
+####     In **/catkin_ws** run the command:
+       **catkin_make**
 ## 3. Source Setuo File 
 ####     Run the following command: 
-        ** Source ~/catkin_ws/devel/setup.bash **
+        **Source ~/catkin_ws/devel/setup.bash**
 ## 4. Launch StartUp 
 #### Run the command 
-     ** roslaunch servicePi robot_startup.launch **
-    ** roslaunch servicePi navigation.launch **
+     **roslaunch servicePi robot_startup.launch**
+    **roslaunch servicePi navigation.launch**
 ## 5.  Run the executable for controlling behavior 
 #### Run the command 
-     ** rosrun servicePi robot_behavior.py **
-     ** rosrun servicePi simpleOps.py **
+     **rosrun servicePi robot_behavior.py**
+     **rosrun servicePi simpleOps.py**
 
