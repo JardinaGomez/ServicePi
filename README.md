@@ -7,24 +7,35 @@
 
 ## Instructions
 ## 1. Install Dependencies 
+```sh
     rf2o_laser_odometry
     move_base
     Teb_local_planner
     costmap_2d
     robot_localization
     slam_gmapping
+```
 ## 2. Build Workspace 
 ####     In __/catkin_ws__ run the command:
-       __catkin_make__
-## 3. Source Setuo File 
+       
+```sh
+catkin_make
+```
+## 3. Source Setup File 
 ####     Run the following command: 
-        __Source ~/catkin_ws/devel/setup.bash__
+```sh
+source ~/catkin_ws/devel/setup.bash
+```
 ## 4. Launch StartUp 
 #### Run the command 
-     **roslaunch servicePi robot_startup.launch**
-    **roslaunch servicePi navigation.launch**
+```sh
+     roslaunch servicePi robot_startup.launch
+     roslaunch servicePi navigation.launch
+```
 ## 5.  Run the executable for controlling behavior 
 #### Run the command 
-     **rosrun servicePi robot_behavior.py**
-     **rosrun servicePi simpleOps.py**
+```sh
 
+     rosrun servicePi robot_behavior.py
+     rosrun servicePi simpleOps.py
+```
