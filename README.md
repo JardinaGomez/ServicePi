@@ -1,6 +1,6 @@
 # ServicePi
 ![Uploading puppypi copy.jpg…]()
-
+![puppypi copy](https://github.com/JardinaGomez/ServicePi/assets/123272586/36027a0d-d461-4040-bd90-e6067690277a)
 
 ### The following work was submitted as a Robotics project at Siena College. The project ServicePi is an autonomous servicedog robot. 
 
