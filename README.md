@@ -1,4 +1,7 @@
 # ServicePi
+![Uploading puppypi copy.jpg…]()
+
+
 ### The following work was submitted as a Robotics project at Siena College. The project ServicePi is an autonomous servicedog robot. 
 
 
